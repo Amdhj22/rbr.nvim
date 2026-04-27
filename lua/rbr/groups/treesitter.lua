@@ -35,13 +35,13 @@ function M.get(ctx)
     ["@keyword.modifier"]    = { fg = p.rb_yellow },
     ["@keyword.coroutine"]   = { fg = p.kerb_red },
 
-    -- ---- Functions (3rd accent — pure_white) ----
-    ["@function"]             = { fg = p.pure_white },
-    ["@function.builtin"]     = { fg = p.pure_white, italic = true },
-    ["@function.call"]        = { fg = p.pure_white },
+    -- ---- Functions (3rd accent — chequer_white) ----
+    ["@function"]             = { fg = p.chequer_white },
+    ["@function.builtin"]     = { fg = p.chequer_white, italic = true },
+    ["@function.call"]        = { fg = p.chequer_white },
     ["@function.macro"]       = { fg = p.sky_blue },        -- macro keeps the attribute feel
-    ["@function.method"]      = { fg = p.pure_white },
-    ["@function.method.call"] = { fg = p.pure_white },
+    ["@function.method"]      = { fg = p.chequer_white },
+    ["@function.method.call"] = { fg = p.chequer_white },
     ["@constructor"]          = { fg = p.rb_yellow },        -- constructors are type-leaning
 
     -- ---- Variables ----

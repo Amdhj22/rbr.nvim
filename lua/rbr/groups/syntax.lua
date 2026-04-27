@@ -29,7 +29,7 @@ function M.get(ctx)
     Float          = { fg = p.light_grey },
 
     Identifier     = { fg = p.text },
-    Function       = { fg = p.pure_white },
+    Function       = { fg = p.chequer_white },
 
     Statement      = { fg = p.kerb_red },
     Conditional    = { fg = p.kerb_red },
