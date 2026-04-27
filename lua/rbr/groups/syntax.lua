@@ -52,7 +52,7 @@ function M.get(ctx)
 
     Special        = { fg = p.sky_blue },
     SpecialChar    = { fg = p.sky_blue },
-    Tag            = { fg = p.teal },
+    Tag            = { fg = p.livery_blue },
     Delimiter      = { fg = p.subtext1 },
     SpecialComment = { fg = p.subtext0, italic = italic, bold = true },
     Debug          = { fg = p.light_grey },

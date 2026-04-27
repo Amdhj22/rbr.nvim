@@ -19,35 +19,35 @@ function M.get(ctx)
     DiagnosticError = { fg = p.kerb_bright },
     DiagnosticWarn  = { fg = p.rb_yellow },
     DiagnosticInfo  = { fg = p.oracle_blue },
-    DiagnosticHint  = { fg = p.pit_light },
+    DiagnosticHint  = { fg = p.livery_blue_bright },
     DiagnosticOk    = { fg = p.paddock_green },
 
     -- ---- Diagnostics — virtual text (tinted surface0) ----
     DiagnosticVirtualTextError = { fg = p.kerb_bright,   bg = p.surface0 },
     DiagnosticVirtualTextWarn  = { fg = p.rb_yellow,     bg = p.surface0 },
     DiagnosticVirtualTextInfo  = { fg = p.oracle_blue,   bg = p.surface0 },
-    DiagnosticVirtualTextHint  = { fg = p.pit_light,     bg = p.surface0 },
+    DiagnosticVirtualTextHint  = { fg = p.livery_blue_bright,     bg = p.surface0 },
     DiagnosticVirtualTextOk    = { fg = p.paddock_green, bg = p.surface0 },
 
     -- ---- Diagnostics — underline ----
     DiagnosticUnderlineError = { sp = p.kerb_bright,   undercurl = true },
     DiagnosticUnderlineWarn  = { sp = p.rb_yellow,     undercurl = true },
     DiagnosticUnderlineInfo  = { sp = p.oracle_blue,   undercurl = true },
-    DiagnosticUnderlineHint  = { sp = p.pit_light,     undercurl = true },
+    DiagnosticUnderlineHint  = { sp = p.livery_blue_bright,     undercurl = true },
     DiagnosticUnderlineOk    = { sp = p.paddock_green, undercurl = true },
 
     -- ---- Diagnostics — sign column ----
     DiagnosticSignError = { fg = p.kerb_bright },
     DiagnosticSignWarn  = { fg = p.rb_yellow },
     DiagnosticSignInfo  = { fg = p.oracle_blue },
-    DiagnosticSignHint  = { fg = p.pit_light },
+    DiagnosticSignHint  = { fg = p.livery_blue_bright },
     DiagnosticSignOk    = { fg = p.paddock_green },
 
     -- ---- Diagnostics — floating windows ----
     DiagnosticFloatingError = { fg = p.kerb_bright },
     DiagnosticFloatingWarn  = { fg = p.rb_yellow },
     DiagnosticFloatingInfo  = { fg = p.oracle_blue },
-    DiagnosticFloatingHint  = { fg = p.pit_light },
+    DiagnosticFloatingHint  = { fg = p.livery_blue_bright },
     DiagnosticFloatingOk    = { fg = p.paddock_green },
 
     -- ---- Diagnostics — misc ----
@@ -75,7 +75,7 @@ function M.get(ctx)
     ["@lsp.type.macro"]         = { fg = p.sky_blue },
     ["@lsp.type.method"]        = { fg = p.chequer_white },
     ["@lsp.type.modifier"]      = { fg = p.kerb_red },
-    ["@lsp.type.namespace"]     = { fg = p.teal },
+    ["@lsp.type.namespace"]     = { fg = p.livery_blue },
     ["@lsp.type.number"]        = { fg = p.light_grey },
     ["@lsp.type.operator"]      = { fg = p.subtext1 },
     ["@lsp.type.parameter"]     = { fg = p.paddock_green },

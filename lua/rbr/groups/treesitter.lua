@@ -79,7 +79,7 @@ function M.get(ctx)
     ["@punctuation"]           = { fg = p.subtext1 },
     ["@punctuation.bracket"]   = { fg = p.subtext1 },
     ["@punctuation.delimiter"] = { fg = p.subtext1 },
-    ["@punctuation.special"]   = { fg = p.teal },
+    ["@punctuation.special"]   = { fg = p.livery_blue },
 
     -- ---- Tags (HTML / JSX / XML) ----
     ["@tag"]           = { fg = p.kerb_red },
@@ -88,8 +88,8 @@ function M.get(ctx)
     ["@tag.delimiter"] = { fg = p.subtext1 },
 
     -- ---- Namespace / module / label / property ----
-    ["@namespace"] = { fg = p.teal },
-    ["@module"]    = { fg = p.teal },
+    ["@namespace"] = { fg = p.livery_blue },
+    ["@module"]    = { fg = p.livery_blue },
     ["@label"]     = { fg = p.oracle_blue },
     ["@property"]  = { fg = p.text },
     ["@field"]     = { fg = p.text },
@@ -103,7 +103,7 @@ function M.get(ctx)
     ["@markup.heading.2"]      = { fg = p.rb_yellow,     bold = true },
     ["@markup.heading.3"]      = { fg = p.paddock_green, bold = true },
     ["@markup.heading.4"]      = { fg = p.oracle_blue,   bold = true },
-    ["@markup.heading.5"]      = { fg = p.teal,         bold = true },
+    ["@markup.heading.5"]      = { fg = p.livery_blue,         bold = true },
     ["@markup.heading.6"]      = { fg = p.subtext1,     bold = true },
     ["@markup.strong"]         = { fg = p.text,          bold = true },
     ["@markup.italic"]         = { fg = p.text,          italic = true },

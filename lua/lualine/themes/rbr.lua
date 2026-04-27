@@ -27,7 +27,7 @@ return {
   visual   = section(p.rb_yellow),
   replace  = section(p.kerb_bright),
   command  = section(p.oracle_blue),
-  terminal = section(p.teal),
+  terminal = section(p.livery_blue),
 
   inactive = {
     a = { fg = p.subtext1, bg = p.mantle },

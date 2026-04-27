@@ -25,8 +25,8 @@ M.classic = {
   paddock_green   = "#b8d49e",
   cool_grey       = "#a8a8b0",
   light_grey      = "#c8c8d0",
-  teal            = "#2563eb",   -- vivid royal blue (cyan ANSI 6)
-  pit_light       = "#b0d4dc",
+  livery_blue        = "#2563eb",   -- vivid royal blue (cyan ANSI 6)
+  livery_blue_bright = "#4D7EFF",   -- electric royal blue (bright_cyan ANSI 14)
 
   -- Neutral layers (darkest → brightest)
   crust           = "#05091a",
@@ -58,7 +58,7 @@ M.classic = {
     [11] = "#ffd84d",
     [12] = "#a4bde8",
     [13] = "#c8c8d0",
-    [14] = "#b0d4dc",
+    [14] = "#4D7EFF",
     [15] = "#e8ecf5",
   },
 }
