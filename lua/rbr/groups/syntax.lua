@@ -8,7 +8,7 @@
 --   Keywords / control flow → kerb_red      ("verbs" of code)
 --   Types / Structures      → rb_yellow     (declarations earn attention)
 --   Strings                 → paddock_green (data reads calmly)
---   Numbers / constants     → crowd_orange / warm_pink
+--   Numbers / constants     → light_grey / cool_grey
 --   Functions               → oracle_blue   (named operations)
 --   Comments                → subtext0 italic
 
@@ -21,12 +21,12 @@ function M.get(ctx)
   return {
     Comment        = { fg = p.subtext0, italic = italic },
 
-    Constant       = { fg = p.warm_pink },
+    Constant       = { fg = p.cool_grey },
     String         = { fg = p.paddock_green },
     Character      = { fg = p.paddock_green },
-    Number         = { fg = p.crowd_orange },
-    Boolean        = { fg = p.crowd_orange },
-    Float          = { fg = p.crowd_orange },
+    Number         = { fg = p.light_grey },
+    Boolean        = { fg = p.light_grey },
+    Float          = { fg = p.light_grey },
 
     Identifier     = { fg = p.text },
     Function       = { fg = p.oracle_blue },
@@ -50,12 +50,12 @@ function M.get(ctx)
     Structure      = { fg = p.rb_yellow },
     Typedef        = { fg = p.rb_yellow },
 
-    Special        = { fg = p.crowd_orange },
-    SpecialChar    = { fg = p.crowd_orange },
-    Tag            = { fg = p.crowd_orange },
+    Special        = { fg = p.sky_blue },
+    SpecialChar    = { fg = p.sky_blue },
+    Tag            = { fg = p.teal },
     Delimiter      = { fg = p.subtext1 },
     SpecialComment = { fg = p.subtext0, italic = italic, bold = true },
-    Debug          = { fg = p.crowd_orange },
+    Debug          = { fg = p.light_grey },
 
     Underlined     = { underline = true },
     Ignore         = { fg = p.overlay0 },

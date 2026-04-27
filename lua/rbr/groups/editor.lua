@@ -94,7 +94,7 @@ function M.get(ctx)
     SpellBad     = { sp = p.kerb_bright,  undercurl = true },
     SpellCap     = { sp = p.rb_yellow,    undercurl = true },
     SpellLocal   = { sp = p.oracle_blue,  undercurl = true },
-    SpellRare    = { sp = p.crowd_orange, undercurl = true },
+    SpellRare    = { sp = p.light_grey, undercurl = true },
 
     -- ----- Nonprintable / concealment -----
     NonText      = { fg = p.overlay0 },

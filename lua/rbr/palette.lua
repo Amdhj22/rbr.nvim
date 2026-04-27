@@ -20,8 +20,8 @@ M.classic = {
   sky_blue        = "#a4bde8",
   track_green     = "#9cc080",
   paddock_green   = "#b8d49e",
-  warm_pink       = "#a8a8b0",
-  crowd_orange    = "#c8c8d0",
+  cool_grey       = "#a8a8b0",
+  light_grey    = "#c8c8d0",
   teal            = "#95c0c8",
   pit_light       = "#b0d4dc",
 

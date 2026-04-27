@@ -46,8 +46,8 @@ function M.get(ctx)
 
     -- ---- Variables ----
     ["@variable"]           = { fg = p.text },
-    ["@variable.builtin"]   = { fg = p.warm_pink,    italic = true },
-    ["@variable.parameter"] = { fg = p.crowd_orange },
+    ["@variable.builtin"]   = { fg = p.oracle_blue,    italic = true },
+    ["@variable.parameter"] = { fg = p.paddock_green },
     ["@variable.member"]    = { fg = p.text },
 
     -- ---- Types ----
@@ -57,29 +57,29 @@ function M.get(ctx)
     ["@type.qualifier"]  = { fg = p.kerb_red },
 
     -- ---- Constants ----
-    ["@constant"]         = { fg = p.warm_pink },
-    ["@constant.builtin"] = { fg = p.warm_pink, italic = true },
+    ["@constant"]         = { fg = p.cool_grey },
+    ["@constant.builtin"] = { fg = p.cool_grey, italic = true },
     ["@constant.macro"]   = { fg = p.sky_blue },
 
     -- ---- Strings ----
     ["@string"]               = { fg = p.paddock_green },
-    ["@string.escape"]        = { fg = p.warm_pink },
-    ["@string.special"]       = { fg = p.crowd_orange },
+    ["@string.escape"]        = { fg = p.sky_blue },
+    ["@string.special"]       = { fg = p.sky_blue },
     ["@string.special.url"]   = { fg = p.oracle_blue,   underline = true },
-    ["@string.regexp"]        = { fg = p.crowd_orange },
+    ["@string.regexp"]        = { fg = p.light_grey },
     ["@string.documentation"] = { fg = p.paddock_green, italic = italic },
 
     -- ---- Numbers ----
-    ["@number"]       = { fg = p.crowd_orange },
-    ["@number.float"] = { fg = p.crowd_orange },
-    ["@boolean"]      = { fg = p.crowd_orange },
+    ["@number"]       = { fg = p.light_grey },
+    ["@number.float"] = { fg = p.light_grey },
+    ["@boolean"]      = { fg = p.light_grey },
 
     -- ---- Punctuation ----
     ["@operator"]              = { fg = p.subtext1 },
     ["@punctuation"]           = { fg = p.subtext1 },
     ["@punctuation.bracket"]   = { fg = p.subtext1 },
     ["@punctuation.delimiter"] = { fg = p.subtext1 },
-    ["@punctuation.special"]   = { fg = p.crowd_orange },
+    ["@punctuation.special"]   = { fg = p.teal },
 
     -- ---- Tags (HTML / JSX / XML) ----
     ["@tag"]           = { fg = p.kerb_red },
@@ -88,8 +88,8 @@ function M.get(ctx)
     ["@tag.delimiter"] = { fg = p.subtext1 },
 
     -- ---- Namespace / module / label / property ----
-    ["@namespace"] = { fg = p.crowd_orange },
-    ["@module"]    = { fg = p.crowd_orange },
+    ["@namespace"] = { fg = p.teal },
+    ["@module"]    = { fg = p.teal },
     ["@label"]     = { fg = p.oracle_blue },
     ["@property"]  = { fg = p.text },
     ["@field"]     = { fg = p.text },
@@ -103,8 +103,8 @@ function M.get(ctx)
     ["@markup.heading.2"]      = { fg = p.rb_yellow,     bold = true },
     ["@markup.heading.3"]      = { fg = p.paddock_green, bold = true },
     ["@markup.heading.4"]      = { fg = p.oracle_blue,   bold = true },
-    ["@markup.heading.5"]      = { fg = p.crowd_orange,  bold = true },
-    ["@markup.heading.6"]      = { fg = p.warm_pink,     bold = true },
+    ["@markup.heading.5"]      = { fg = p.teal,         bold = true },
+    ["@markup.heading.6"]      = { fg = p.subtext1,     bold = true },
     ["@markup.strong"]         = { fg = p.text,          bold = true },
     ["@markup.italic"]         = { fg = p.text,          italic = true },
     ["@markup.strikethrough"]  = { fg = p.subtext1,      strikethrough = true },
@@ -117,7 +117,7 @@ function M.get(ctx)
     ["@markup.list.unchecked"] = { fg = p.subtext1 },
     ["@markup.quote"]          = { fg = p.subtext1,      italic = italic },
     ["@markup.raw"]            = { fg = p.paddock_green },
-    ["@markup.math"]           = { fg = p.crowd_orange },
+    ["@markup.math"]           = { fg = p.light_grey },
     ["@markup.environment"]    = { fg = p.sky_blue },
 
     -- ---- Diff ----

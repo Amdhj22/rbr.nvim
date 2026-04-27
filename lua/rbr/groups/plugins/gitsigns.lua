@@ -18,7 +18,7 @@ function M.get(ctx)
     GitSignsDelete       = { fg = p.kerb_bright },
     GitSignsTopdelete    = { fg = p.kerb_bright },
     GitSignsChangedelete = { fg = p.rb_warm },
-    GitSignsUntracked    = { fg = p.warm_pink },
+    GitSignsUntracked    = { fg = p.rb_warm },
 
     GitSignsAddNr        = { fg = p.paddock_green },
     GitSignsChangeNr     = { fg = p.rb_yellow },
@@ -36,7 +36,7 @@ function M.get(ctx)
     GitSignsStagedChange       = { fg = p.rb_warm },
     GitSignsStagedDelete       = { fg = p.kerb_pure },
     GitSignsStagedTopdelete    = { fg = p.kerb_pure },
-    GitSignsStagedChangedelete = { fg = p.warm_pink },
+    GitSignsStagedChangedelete = { fg = p.cool_grey },
 
     -- Current-line blame ghost text.
     GitSignsCurrentLineBlame = { fg = p.subtext0, italic = true },
