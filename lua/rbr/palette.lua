@@ -9,19 +9,22 @@ local M = {}
 
 -- ---- Classic flavor ----
 M.classic = {
-  -- Accent colors
+  -- 3-accent signature: kerb_red (active) · rb_yellow (attention) · pure_white (functions)
   kerb_red        = "#e84a55",
   kerb_bright     = "#f56570",
   kerb_pure       = "#cc1e4a",
   rb_yellow       = "#ffd84d",
   rb_warm         = "#f5c842",
   rb_pure         = "#ffc906",
+  pure_white      = "#ffffff",   -- 3rd accent — function names
+
+  -- Supporting accents (kept calmer so the 3 above stand out)
   oracle_blue     = "#82a0d8",
   sky_blue        = "#a4bde8",
   track_green     = "#9cc080",
   paddock_green   = "#b8d49e",
   cool_grey       = "#a8a8b0",
-  light_grey    = "#c8c8d0",
+  light_grey      = "#c8c8d0",
   teal            = "#95c0c8",
   pit_light       = "#b0d4dc",
 
