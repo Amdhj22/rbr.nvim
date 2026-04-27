@@ -1,6 +1,6 @@
 -- Palette vendored from rbr-theme:
 --   https://github.com/Amdhj22/rbr/blob/main/palette.json
--- Version: 2.1.0 (Classic flavor)
+-- Version: 2.2.0 (Classic flavor)
 --
 -- Update manually when the upstream palette changes. A future umbrella
 -- repo may provide a shared sync tool across all rbr port colorschemes.
@@ -20,8 +20,8 @@ M.classic = {
   sky_blue        = "#a4bde8",
   track_green     = "#9cc080",
   paddock_green   = "#b8d49e",
-  warm_pink       = "#d49880",
-  crowd_orange    = "#e8b498",
+  warm_pink       = "#a8a8b0",
+  crowd_orange    = "#c8c8d0",
   teal            = "#95c0c8",
   pit_light       = "#b0d4dc",
 
@@ -46,17 +46,17 @@ M.classic = {
     [ 2] = "#9cc080",
     [ 3] = "#f5c842",
     [ 4] = "#82a0d8",
-    [ 5] = "#d49880",
+    [ 5] = "#a8a8b0",
     [ 6] = "#95c0c8",
-    [ 7] = "#8590ae",
+    [ 7] = "#c8d0e8",
     [ 8] = "#3a4466",
     [ 9] = "#f56570",
     [10] = "#b8d49e",
     [11] = "#ffd84d",
     [12] = "#a4bde8",
-    [13] = "#e8b498",
+    [13] = "#c8c8d0",
     [14] = "#b0d4dc",
-    [15] = "#c8d0e8",
+    [15] = "#e8ecf5",
   },
 }
 
