@@ -20,15 +20,28 @@ local function merge(dst, src)
   for k, v in pairs(src) do dst[k] = v end
 end
 
+-- Resolve `transparent` (false | true | function) to a plain bool.
+-- Functions are called exactly once per load() so they can do filesystem
+-- work (e.g. parsing the host terminal's config) without slowing redraws.
+local function resolve_transparent(t)
+  if type(t) == "function" then
+    local ok, result = pcall(t)
+    return ok and result == true
+  end
+  return t == true
+end
+
 function M.build(config, palette)
+  local transparent = resolve_transparent(config.transparent)
+
   -- Shared context passed to every group module.
   local ctx = {
     p = palette,
     c = config,
-    -- Respect `transparent = true` by returning "NONE" for background colors
+    -- Respect `transparent` by returning "NONE" for background colors
     -- that should follow the terminal.
     bg = function(color)
-      return config.transparent and "NONE" or color
+      return transparent and "NONE" or color
     end,
   }
 

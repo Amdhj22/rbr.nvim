@@ -89,6 +89,19 @@ require("rbr").setup({
 vim.cmd.colorscheme("rbr")
 ```
 
+### Follow Ghostty's transparent background
+
+`transparent` accepts a function — `rbr.theme.build()` calls it once at load time. Pair it with the bundled `rbr.detect.ghostty_transparent` helper to make Neovim transparent **only when** your `~/.config/ghostty/config` has `background-opacity < 1`:
+
+```lua
+require("rbr").setup({
+  transparent = require("rbr.detect").ghostty_transparent,
+})
+vim.cmd.colorscheme("rbr")
+```
+
+When you flip Ghostty's opacity off, the next nvim launch goes back to opaque without you touching anything.
+
 &nbsp;
 
 ## Palette
