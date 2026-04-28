@@ -10,15 +10,8 @@ M.defaults = {
   -- flavors (e.g. a light "monza") will be added without breaking this.
   flavor = "classic",
 
-  -- Make `Normal` and related groups use bg = NONE so the terminal's
+  -- If true, `Normal` and related groups use bg = NONE so the terminal's
   -- background (e.g. Ghostty's transparent blur) shows through.
-  --
-  -- Accepts:
-  --   false           -- always opaque (default)
-  --   true            -- always transparent
-  --   function -> any -- called once at load(); truthy result enables it.
-  --                     Useful to follow the host terminal — e.g. parse
-  --                     Ghostty's background-opacity at nvim start.
   transparent = false,
 
   -- Render comments in italics. Disable if your font lacks a proper italic cut.

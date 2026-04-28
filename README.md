@@ -89,18 +89,16 @@ require("rbr").setup({
 vim.cmd.colorscheme("rbr")
 ```
 
-### Follow Ghostty's transparent background
+### Transparent background
 
-`transparent` accepts a function — `rbr.theme.build()` calls it once at load time. Pair it with the bundled `rbr.detect.ghostty_transparent` helper to make Neovim transparent **only when** your `~/.config/ghostty/config` has `background-opacity < 1`:
+If your terminal renders a transparent / blurred background (Ghostty, iTerm2, kitty, …), set `transparent = true` so `Normal` and related groups paint with `bg = NONE` and the terminal's background shows through:
 
 ```lua
-require("rbr").setup({
-  transparent = require("rbr.detect").ghostty_transparent,
-})
+require("rbr").setup({ transparent = true })
 vim.cmd.colorscheme("rbr")
 ```
 
-When you flip Ghostty's opacity off, the next nvim launch goes back to opaque without you touching anything.
+Cursor line, selection, status line, and pmenu keep their backgrounds on purpose — the brand still needs visible chrome.
 
 &nbsp;
 
